@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace les13
 {
-    class MultiBuilding:Building
+    sealed class MultiBuilding:Building
     {
         int floor;
 
